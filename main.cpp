@@ -128,13 +128,14 @@ public:
 #endif
             
             // Réponse HTTP simple
+            std::string message = "Hello World modifiedddd";
             std::string response = 
                 "HTTP/1.1 200 OK\r\n"
                 "Content-Type: text/plain\r\n"
                 "Access-Control-Allow-Origin: *\r\n"
-                "Content-Length: 11\r\n"
-                "\r\n"
-                "Hello World";
+                "Content-Length: " + std::to_string(message.length()) + "\r\n"
+                "\r\n" + 
+                message;
             
             // Envoyer la réponse
 #ifdef _WIN32
