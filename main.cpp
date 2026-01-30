@@ -16,7 +16,7 @@ int main() {
         std::cout << "   ✓ BFS pathfinding algorithm" << std::endl;
         std::cout << "   ✓ Real-time visualization support" << std::endl;
         std::cout << "\n Access URLs:" << std::endl;
-        std::cout << "   - Backend: http://localhost:8080" << std::endl;
+        std::cout << "   - Backend: http://localhost:8084" << std::endl;
         std::cout << "   - Frontend: http://localhost:3000" << std::endl;
         std::cout << "\n Waiting for React frontend to connect..." << std::endl;
         
