@@ -60,7 +60,7 @@ int* dijkstra(
     }
       //cout << duration_ms ;
 
-    buffer[0] = size;           // nombre de nœuds dans le chemin
+    buffer[0] = size;           // nombre de nœuds dans le chemin trouve
     buffer[1] = sizeVisitedNodes ;
     buffer[2] = (int)convertDuration;    // temps en millisecondes
     buffer[3] = ReteiveDecimalPart(convertDuration);

@@ -5,6 +5,8 @@
 #include <limits> 
 using namespace std ;
 
+
+// specification
 using Node      = int ;
 using Weight    = int ;
 constexpr Weight INF = numeric_limits<int>::max();

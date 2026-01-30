@@ -529,7 +529,7 @@ void PathfindingServer::sendHttpResponse(int clientSocket, const std::string& co
         case 400: statusText = "Bad Request"; break;
         case 404: statusText = "Not Found"; break;
         case 500: statusText = "Internal Server Error"; break;
-        default: statusText = "OK";
+        default: statusText = " ok";
     }
     
     std::string response = 

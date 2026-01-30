@@ -62,7 +62,7 @@ PathResult DijkstraSolver::solve(Node start, Node end) {
         }
     }
 
-    PathResult result =  buildPath(prev, end);
-    result.visitedNodes = visitedOrder ;
+    PathResult result =  buildPath(prev, end); // path result
+    result.visitedNodes = visitedOrder ;    // visited Nodes
     return result ;
 }

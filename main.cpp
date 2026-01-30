@@ -12,7 +12,7 @@ int main() {
     if (server.initialize()) {
         std::cout << "\nServer initialized successfully!" << std::endl;
         std::cout << " Features:" << std::endl;
-        std::cout << "   ✓ Maze generation" << std::endl;
+        std::cout << "   ✓ Maze generation" << std::endl << std::endl ;
         std::cout << "   ✓ BFS pathfinding algorithm" << std::endl;
         std::cout << "   ✓ Real-time visualization support" << std::endl;
         std::cout << "\n Access URLs:" << std::endl;
