@@ -1,0 +1,44 @@
+
+---
+
+
+```md
+# ⚙️ FindingPath Backend — WebAssembly Algorithms
+
+Backend contenant les algorithmes de pathfinding en C++ compilés en WebAssembly.
+
+---
+
+## 📋 Description
+
+Ce backend fournit des fichiers `.wasm` et `.js` exécutés dans le navigateur pour garantir de hautes performances.
+
+---
+
+## 🧠 Algorithmes implémentés
+
+- BFS (Breadth-First Search)
+- Dijkstra
+- A* (A-Star)
+- Génération de labyrinthe
+
+---
+
+## 🗂️ Structure
+FindingPathBackEnd/
+├── BackendBFS/
+│ ├── bfs.cpp
+│ ├── bfs.js
+│ └── bfs.wasm
+├── BackendDijkstra/
+├── BackendAstar/
+├── Maze/
+└── Dockerfile
+
+---
+
+## 🚀 Lancement avec Docker
+
+```bash
+docker build -t findingpath-backend .
+docker run -p 8080:8080 findingpath-backend
